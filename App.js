@@ -11,8 +11,9 @@ import Dashboard from './Dashboard';
 
 function App() {
   return (
-    <Router>
-      <div>
+  <Router>
+      
+      <div className="main">
         <ul>
           <li><Link to="/">Home</Link> </li>
           <li><Link to="/about">About</Link></li>
@@ -32,7 +33,8 @@ function App() {
           <Dashboard/>
         </Route>
       </Switch>
-    </Router>
+      </Router>
+      
   );
 }
 
